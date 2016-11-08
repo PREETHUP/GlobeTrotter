@@ -1,0 +1,26 @@
+{
+  "name": "GlobeTrotter",
+  "description": "Lets plan your vacation",
+  "keywords": ["smooch", "bot", "express", "wit", "ai", "meya"],
+  "website": "https://smooch.io",
+  "repository": "https://github.com/PREETHUP/GlobeTrotter.git",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "env": {
+    "SMOOCH_APP_TOKEN": {
+      "description": "Your Smooch app token which is used to initialize the web widget.",
+      "required": true
+    },
+    "SMOOCH_KEY_ID": {
+      "description": "Your Smooch key ID, used to talk to the Smooch API",
+      "required": true
+    },
+    "SMOOCH_SECRET": {
+      "description": "Your Smooch secret, used to talk to the Smooch API",
+      "required": true
+    },
+    "WIT_TOKEN": {
+      "description": "Your Wit.AI API Token",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,4 @@
+applications:
+- name: globe-trotter
+  instances: 1
+  memory: 256M

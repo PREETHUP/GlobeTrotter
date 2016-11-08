@@ -1,0 +1,31 @@
+{
+  "name": "globe-trotter",
+  "version": "1.0.0",
+  "description": "Smooch Bot with Wit.ai and meya.ai integration",
+  "author": "Preethu P<cheriyathpree@gmail.com>",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "hbs": "^4.0.0",
+    "jsonwebtoken": "^5.7.0",
+    "smooch-bot": "^1.0.1",
+    "smooch-core": "^0.0.15",
+    "node-fetch": "^1.5.1",
+    "node-uuid": "^1.4.7",
+    "request": "^2.73.0"
+  },
+  "engines": {
+    "node": "6.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "esformatter": "^0.9.1",
+    "esformatter-braces": "^1.2.1",
+    "esformatter-dot-notation": "^1.3.1",
+    "esformatter-quotes": "^1.0.3",
+    "eslint": "^2.2.0"
+  }
+}
